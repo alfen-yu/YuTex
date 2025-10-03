@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Tech Stack for Yutex Application}
+\author{Yousuf Uyghur}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Overview}
+The Yutex application is a lightweight, cross-platform desktop app similar to a local Overleaf.  
+It is built using modern web and system technologies, combined through Tauri.
+
+\section*{Tech Stack}
+
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Frontend Framework:} SvelteKit
+    \begin{itemize}
+        \item Adapter: \texttt{adapter-static} (for static builds)
+    \end{itemize}
+
+    \item \textbf{UI/Styling:} Tailwind CSS
+
+    \item \textbf{App Container:} Tauri
+    \begin{itemize}
+        \item Frontend served from SvelteKit build
+        \item Backend powered by Rust
+        \item Configuration: \texttt{tauri.conf.json}
+    \end{itemize}
+
+    \item \textbf{Build/Dev Tools:}
+    \begin{itemize}
+        \item Node.js + npm (for SvelteKit build and dev server)
+        \item Rust + Cargo (for Tauri runtime)
+    \end{itemize}
+
+    \item \textbf{Editor Features:} 
+    \begin{itemize}
+        \item Planned integration of open-source AI models for:
+        \begin{itemize}
+            \item Code auto-completion
+            \item Error detection
+            \item Linting
+        \end{itemize}
+    \end{itemize}
+
+    \item \textbf{Target Platforms:} 
+    \begin{itemize}
+        \item Windows
+        \item macOS
+        \item Linux
+    \end{itemize}
+\end{itemize}
+
+\end{document}
