@@ -11,9 +11,13 @@
 
 \maketitle
 
-\section*{🏗️ Yutex Tech Stack}
+\section*{Yutex Tech Stack}
 
-\section*{🖥️ Frontend}
+\section*{Overview}
+App is a one-stop solution for latex editors. Don't need to manually install the miktex, strawberry perl and other engines. Also it works locally and does not produce tons of 
+extra files, a all-in-one application for latex. 
+
+\section*{Frontend}
 \begin{itemize}
     \item \textbf{SvelteKit}  
     Modern UI framework for reactive, fast frontend.
@@ -21,26 +25,23 @@
     Compiles SvelteKit into static files (\texttt{/build}) so Tauri can ship them.
     \item \textbf{Vite (bundler)}  
     Powers dev server and build pipeline.
-    \item \textbf{(Optional) TailwindCSS}  
-    For styling (if added later).
 \end{itemize}
 
-\section*{⚙️ Desktop Shell}
+\section*{Desktop Shell}
 \begin{itemize}
     \item \textbf{Tauri}  
     Wrapper that turns your web frontend into a native desktop app.  
-    Uses the system’s webview (instead of bundling Chromium like Electron) → lightweight.  
     Bridges frontend $\leftrightarrow$ Rust backend.
 \end{itemize}
 
-\section*{🦀 Backend}
+\section*{Backend}
 \begin{itemize}
     \item \textbf{Rust (via Tauri commands)}  
     Handles system-level logic such as file access and LaTeX compilation.  
     Rust is secure, fast, and integrates tightly with Tauri.
 \end{itemize}
 
-\section*{📄 LaTeX Engine}
+\section*{LaTeX Engine}
 \begin{itemize}
     \item \textbf{Tectonic (Rust-based)}  
     Modern LaTeX engine that downloads required packages automatically.  
@@ -48,22 +49,19 @@
     Invoked by the Rust backend to compile \texttt{.tex} into \texttt{.pdf}.
 \end{itemize}
 
-\section*{✍️ Editor}
+\section*{Editor}
 \begin{itemize}
-    \item \textbf{CodeMirror or Monaco Editor} (inside SvelteKit UI)  
+    \item \textbf{Monaco Editor}
     Provides rich text/code editing with LaTeX syntax highlighting.  
     Similar to what Overleaf uses.
 \end{itemize}
 
-\section*{🧩 Summary Flow}
+\section*{Summary Flow}
 \begin{enumerate}
-    \item User writes LaTeX in Monaco/CodeMirror editor (SvelteKit UI).
+    \item User writes LaTeX in Monaco.
     \item Click \texttt{Compile} → Frontend calls a Rust Tauri command.
     \item Rust command runs Tectonic → produces PDF.
-    \item PDF is shown back in the app (via PDF viewer component or download).
+    \item PDF is shown back in the app, PDF is displayed live and automatic compilation.
 \end{enumerate}
-
-\section*{⚡ Final Stack in One Line}
-\textbf{SvelteKit (Adapter-Static + Vite) + Tauri + Rust + Tectonic + Monaco/CodeMirror}
 
 \end{document}

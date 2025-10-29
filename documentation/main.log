@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.11)  3 OCT 2025 15:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.11)  29 OCT 2025 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -117,35 +117,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
-Missing character: There is no 🏗 in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no 🖥 in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ⚙ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
-Missing character: There is no 🦀 in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no 📄 in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ✍ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no 🧩 in font [lmroman12-bold]:mapping=tex-text;!
+(Font)              <6> on input line 34.
 
 
 [1
 
 ]
-Missing character: There is no ⚡ in font [lmroman12-bold]:mapping=tex-text;!
-
-Overfull \hbox (43.34013pt too wide) in paragraph at lines 67--68
-\TU/lmr/bx/n/12 SvelteKit (Adapter-Static + Vite) + Tauri + Rust + Tectonic + Monaco/CodeMirror 
- []
-
-
 
 [2] (main.aux)
  ***********
@@ -160,6 +142,6 @@ Here is how much of TeX's memory you used:
  24166 multiletter control sequences out of 15000+600000
  561774 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,6n,65p,193b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,244b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (2 pages, 16108 bytes).
+Output written on main.xdv (2 pages, 15184 bytes).
