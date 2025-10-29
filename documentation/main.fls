@@ -9,8 +9,6 @@ INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\base\size12
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
@@ -31,5 +29,14 @@ OUTPUT main.aux
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 OUTPUT main.xdv
 INPUT main.aux

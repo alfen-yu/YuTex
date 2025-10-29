@@ -1,27 +1,32 @@
 # Fdb version 4
-["xdvipdfmx"] 1759486097.00531 "main.xdv" "main.pdf" "main" 1759486097.36797 0
-  "main.xdv" 1759486096 9248 407fae418406d1f23c726fc79235ed44 "xelatex"
+["xdvipdfmx"] 1759486883.42985 "main.xdv" "main.pdf" "main" 1759486884.11455 0
+  "main.xdv" 1759486883 16108 87b2affe64a7cdf7df81354f7a36c701 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1759486084.17842 "y:/code/open_source/YuTex/documentation/main.tex" "main.xdv" "main" 1759486097.36601 0
+["xelatex"] 1759486882.14864 "y:/code/open_source/YuTex/documentation/main.tex" "main.xdv" "main" 1759486884.11292 0
   "C:/Users/Yousuf Uyghur/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1739268173 25366044 c079949acbd5dc8cb912e036cf424bee ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1734114575 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1734114575 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1732534639 20144 d7d3a15c7efd9458741458961c8a96e7 ""
-  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1732534639 5048 7ebf0f2edf1ef6783e8fe2201a95d0e8 ""
+  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1759486112 5045 653b91c39af701ce3d97f3ba856c6521 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo" 1732534639 8449 c69e49af7cb761638914bc5dddad142a ""
-  "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1730544106 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/Yousuf Uyghur/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1716480499 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
-  "main.aux" 1759486096 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "main.tex" 1759486083 1613 a33e136d407b4b4a4eb57fcb247e6801 ""
-  "y:/code/open_source/YuTex/documentation/main.tex" 1759486083 1613 a33e136d407b4b4a4eb57fcb247e6801 ""
+  "main.aux" 1759486883 32 044b7f8fc9779af7531264e0c5c84b6d "xelatex"
+  "main.tex" 1759486661 2306 c8645cd0cd6c252f3b1028fbac6749a1 ""
+  "y:/code/open_source/YuTex/documentation/main.tex" 1759486661 2306 c8645cd0cd6c252f3b1028fbac6749a1 ""
   (generated)
   "main.aux"
   "main.log"

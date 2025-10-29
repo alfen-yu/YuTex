@@ -1,10 +1,9 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{enumitem}
 \usepackage{geometry}
 \geometry{margin=1in}
 
-\title{Tech Stack for Yutex Application}
+\title{Yutex Tech Stack}
 \author{Yousuf Uyghur}
 \date{}
 
@@ -12,49 +11,59 @@
 
 \maketitle
 
-\section*{Overview}
-The Yutex application is a lightweight, cross-platform desktop app similar to a local Overleaf.  
-It is built using modern web and system technologies, combined through Tauri.
+\section*{🏗️ Yutex Tech Stack}
 
-\section*{Tech Stack}
-
-\begin{itemize}[label=\textbullet]
-    \item \textbf{Frontend Framework:} SvelteKit
-    \begin{itemize}
-        \item Adapter: \texttt{adapter-static} (for static builds)
-    \end{itemize}
-
-    \item \textbf{UI/Styling:} Tailwind CSS
-
-    \item \textbf{App Container:} Tauri
-    \begin{itemize}
-        \item Frontend served from SvelteKit build
-        \item Backend powered by Rust
-        \item Configuration: \texttt{tauri.conf.json}
-    \end{itemize}
-
-    \item \textbf{Build/Dev Tools:}
-    \begin{itemize}
-        \item Node.js + npm (for SvelteKit build and dev server)
-        \item Rust + Cargo (for Tauri runtime)
-    \end{itemize}
-
-    \item \textbf{Editor Features:} 
-    \begin{itemize}
-        \item Planned integration of open-source AI models for:
-        \begin{itemize}
-            \item Code auto-completion
-            \item Error detection
-            \item Linting
-        \end{itemize}
-    \end{itemize}
-
-    \item \textbf{Target Platforms:} 
-    \begin{itemize}
-        \item Windows
-        \item macOS
-        \item Linux
-    \end{itemize}
+\section*{🖥️ Frontend}
+\begin{itemize}
+    \item \textbf{SvelteKit}  
+    Modern UI framework for reactive, fast frontend.
+    \item \textbf{Adapter-Static}  
+    Compiles SvelteKit into static files (\texttt{/build}) so Tauri can ship them.
+    \item \textbf{Vite (bundler)}  
+    Powers dev server and build pipeline.
+    \item \textbf{(Optional) TailwindCSS}  
+    For styling (if added later).
 \end{itemize}
+
+\section*{⚙️ Desktop Shell}
+\begin{itemize}
+    \item \textbf{Tauri}  
+    Wrapper that turns your web frontend into a native desktop app.  
+    Uses the system’s webview (instead of bundling Chromium like Electron) → lightweight.  
+    Bridges frontend $\leftrightarrow$ Rust backend.
+\end{itemize}
+
+\section*{🦀 Backend}
+\begin{itemize}
+    \item \textbf{Rust (via Tauri commands)}  
+    Handles system-level logic such as file access and LaTeX compilation.  
+    Rust is secure, fast, and integrates tightly with Tauri.
+\end{itemize}
+
+\section*{📄 LaTeX Engine}
+\begin{itemize}
+    \item \textbf{Tectonic (Rust-based)}  
+    Modern LaTeX engine that downloads required packages automatically.  
+    Replaces MiKTeX/TeX Live (avoids bloated dependencies).  
+    Invoked by the Rust backend to compile \texttt{.tex} into \texttt{.pdf}.
+\end{itemize}
+
+\section*{✍️ Editor}
+\begin{itemize}
+    \item \textbf{CodeMirror or Monaco Editor} (inside SvelteKit UI)  
+    Provides rich text/code editing with LaTeX syntax highlighting.  
+    Similar to what Overleaf uses.
+\end{itemize}
+
+\section*{🧩 Summary Flow}
+\begin{enumerate}
+    \item User writes LaTeX in Monaco/CodeMirror editor (SvelteKit UI).
+    \item Click \texttt{Compile} → Frontend calls a Rust Tauri command.
+    \item Rust command runs Tectonic → produces PDF.
+    \item PDF is shown back in the app (via PDF viewer component or download).
+\end{enumerate}
+
+\section*{⚡ Final Stack in One Line}
+\textbf{SvelteKit (Adapter-Static + Vite) + Tauri + Rust + Tectonic + Monaco/CodeMirror}
 
 \end{document}

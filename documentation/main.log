@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.11)  3 OCT 2025 15:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.11)  3 OCT 2025 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -31,62 +31,53 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks19
-\labelindent=\skip51
-\enit@outerparindent=\dimen142
-\enit@toks=\toks20
-\enit@inbox=\box52
-\enit@count@id=\count266
-\enitdp@description=\count267
 ) (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks19
 ) (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count268
-\Gm@cntv=\count269
-\c@Gm@tempcnt=\count270
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
-\Gm@dimlist=\toks22
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks20
  (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Yousuf Uyghur\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count271
-\l__pdf_internal_box=\box53
-\g__pdf_backend_annotation_int=\count272
-\g__pdf_backend_link_int=\count273
+\g__graphics_track_int=\count269
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -123,26 +114,52 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 13.
+(Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 12.
+Missing character: There is no 🏗 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 🖥 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ⚙ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 33.
+Missing character: There is no 🦀 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 📄 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ✍ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ️ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 🧩 in font [lmroman12-bold]:mapping=tex-text;!
 
 
 [1
 
-] (main.aux)
+]
+Missing character: There is no ⚡ in font [lmroman12-bold]:mapping=tex-text;!
+
+Overfull \hbox (43.34013pt too wide) in paragraph at lines 67--68
+\TU/lmr/bx/n/12 SvelteKit (Adapter-Static + Vite) + Tauri + Rust + Tectonic + Monaco/CodeMirror 
+ []
+
+
+
+[2] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1429 strings out of 408686
- 24535 string characters out of 5744341
- 421207 words of memory out of 5000000
- 24479 multiletter control sequences out of 15000+600000
- 559038 words of font info for 46 fonts, out of 8000000 for 9000
+ 1119 strings out of 408686
+ 19181 string characters out of 5744341
+ 413528 words of memory out of 5000000
+ 24166 multiletter control sequences out of 15000+600000
+ 561774 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,6n,65p,193b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,193b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (1 page, 9248 bytes).
+Output written on main.xdv (2 pages, 16108 bytes).
