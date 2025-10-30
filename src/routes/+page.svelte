@@ -42,7 +42,6 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
-    text-align: center;
   }
 
   .row-2 {
@@ -56,6 +55,7 @@
   .row-1,
   .row-3 {
     background-color: #1e1e1e;
+    text-align: center;
   }
 
   div {
