@@ -15,7 +15,7 @@
     <Editor />
     <Viewer />
   </div>
-  <div class="row-3">
+  <div class="row-1">
     <Dock />
   </div>
 </main>
@@ -40,8 +40,9 @@
 
   .container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 32px 1fr;
     height: 100vh;
+    background-color: #1e1e1e;
   }
 
   .row-2 {
@@ -52,13 +53,7 @@
     height: 100%;
   }
 
-  .row-1,
-  .row-3 {
+  .row-1 {
     background-color: #1e1e1e;
-    text-align: center;
-  }
-
-  div {
-    border: 1px solid red;
   }
 </style>

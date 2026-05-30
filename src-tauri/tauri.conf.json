@@ -13,7 +13,8 @@
     "windows": [
       {
         "title": "YuTex",
-        "fullscreen": true,            
+        "fullscreen": false,
+        "maximized": true,
         "resizable": true,
         "decorations": false, 
         "visible": true,

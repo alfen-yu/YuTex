@@ -1,63 +1,102 @@
 <script lang="ts">
-  import { Window } from "@tauri-apps/api/window"
-  const appWindow = new Window('theUniqueLabel');
+  import { getCurrentWindow } from "@tauri-apps/api/window";
 
-  function minimize() {
-    appWindow.minimize();
+  const appWindow = getCurrentWindow();
+
+  async function minimize() {
+    await appWindow.minimize();
   }
 
-  function maximize() {
-    appWindow.toggleMaximize();
+  async function maximize() {
+    await appWindow.toggleMaximize();
   }
 
-  function close() {
-    appWindow.close();
+  async function close() {
+    await appWindow.close();
   }
 </script>
 
 <header class="titlebar">
-  <div class="title">YuTex</div>
   <div class="window-controls">
-    <button on:click={minimize}>−</button>
-    <button on:click={maximize}>□</button>
-    <button on:click={close}>×</button>
+    <button class="control minimize" type="button" aria-label="Minimize" on:click={minimize}></button>
+    <button class="control maximize" type="button" aria-label="Maximize" on:click={maximize}></button>
+    <button class="control close" type="button" aria-label="Close" on:click={close}></button>
   </div>
 </header>
 
 <style>
   .titlebar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    background: #1e1e1e;
-    color: white;
-    padding: 0.25rem 1rem;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     user-select: none;
-    -webkit-app-region: drag; /* allows dragging the window */
+    -webkit-app-region: drag;
   }
 
   .window-controls {
     display: flex;
-    gap: 0.5rem;
-    -webkit-app-region: no-drag; /* make buttons clickable */
+    height: 100%;
+    -webkit-app-region: no-drag;
   }
 
-  .window-controls button {
+  .control {
+    position: relative;
+    width: 46px;
+    height: 100%;
     background: transparent;
-    color: white;
     border: none;
     cursor: pointer;
-    width: 28px;
-    height: 24px;
-    border-radius: 4px;
+    color: #cccccc;
   }
 
-  .window-controls button:hover {
-    background: #333;
+  .control:hover {
+    background: rgba(255, 255, 255, 0.08);
   }
 
-  .window-controls button:last-child:hover {
-    background: #c42b1c;
+  .control.close:hover {
+    background: #e81123;
+    color: #ffffff;
+  }
+
+  .minimize::before,
+  .maximize::before,
+  .close::before,
+  .close::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: currentColor;
+  }
+
+  .minimize::before {
+    width: 12px;
+    height: 1px;
+    top: calc(50% + 3px);
+  }
+
+  .maximize::before {
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border: 1.5px solid currentColor;
+    box-sizing: border-box;
+  }
+
+  .close::before,
+  .close::after {
+    width: 12px;
+    height: 1.5px;
+  }
+
+  .close::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
   }
 </style>
