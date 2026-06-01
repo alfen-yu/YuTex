@@ -1,5 +1,7 @@
 <div>
-  <h1>2</h1>
+  <button>Explorer</button>
+  <button>Search</button>
+  <button>Latex</button>
 </div>
 
 <style>
