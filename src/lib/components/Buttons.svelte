@@ -14,30 +14,29 @@
   async function close() {
     await appWindow.close();
   }
+
 </script>
 
-<header class="titlebar">
-  <div class="window-controls">
-    <button class="control minimize" type="button" aria-label="Minimize" on:click={minimize}></button>
-    <button class="control maximize" type="button" aria-label="Maximize" on:click={maximize}></button>
-    <button class="control close" type="button" aria-label="Close" on:click={close}></button>
-  </div>
-</header>
+<div class="window-controls">
+  <button class="control minimize" type="button" aria-label="Minimize" on:click={minimize}></button>
+  <button
+    class="control maximize"
+    type="button"
+    aria-label="Maximize"
+    on:click={maximize}
+  ></button>
+  <button
+    class="control close"
+    type="button"
+    aria-label="Close"
+    on:click={close}
+  ></button>
+</div>
 
 <style>
-  .titlebar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    user-select: none;
-    -webkit-app-region: drag;
-  }
-
   .window-controls {
     display: flex;
-    height: 100%;
+    height: 32px;
     -webkit-app-region: no-drag;
   }
 
@@ -49,12 +48,13 @@
     border: none;
     cursor: pointer;
     color: #cccccc;
+    -webkit-app-region: no-drag;
+    pointer-events: all;
   }
 
   .control:hover {
     background: rgba(255, 255, 255, 0.08);
   }
-
   .control.close:hover {
     background: #e81123;
     color: #ffffff;
@@ -91,11 +91,9 @@
     width: 12px;
     height: 1.5px;
   }
-
   .close::before {
     transform: translate(-50%, -50%) rotate(45deg);
   }
-
   .close::after {
     transform: translate(-50%, -50%) rotate(-45deg);
   }

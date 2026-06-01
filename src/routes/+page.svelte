@@ -28,6 +28,12 @@
   }
 
   :root {
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #2d2d2d;
+    --text-primary: #d4d4d4;
+    --text-muted: #888888;
+    --accent: #569cd6;
+    --border: #1b1b1b;
     color: #f6f6f6;
     background-color: #2f2f2f;
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
